@@ -92,6 +92,13 @@ textarea{resize:vertical;min-height:70px}
 .conf{position:fixed;inset:0;pointer-events:none;z-index:9;overflow:hidden}
 .conf i{position:absolute;top:-30px;width:12px;height:18px;animation:fall linear forwards}
 @keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}
+.promo{position:relative;z-index:1;background:#14244f;color:#fff;text-align:center;padding:26px 18px 34px}
+.promo .k{font-family:"Luckiest Guy";font-size:15px;letter-spacing:.12em;color:var(--yel)}
+.promo h3{font-family:"Luckiest Guy";font-size:clamp(24px,7vw,32px);line-height:1.08;margin:8px auto 8px;max-width:440px}
+.promo p{font-size:16px;color:#cfd8ef;max-width:420px;margin:0 auto;line-height:1.35}
+.promo a{display:inline-block;margin-top:16px;font-family:"Luckiest Guy";font-size:20px;color:var(--blue);background:var(--yel);
+  border:4px solid #fff;border-radius:999px;padding:12px 24px 8px;text-decoration:none;box-shadow:0 6px 0 var(--red)}
+.promo small{display:block;margin-top:14px;font-size:14px;color:#c9d3ef}
 </style>
 </head>
 <body>
@@ -117,7 +124,7 @@ textarea{resize:vertical;min-height:70px}
     <div class="info">
       <div><span class="ic">📅</span><span><b>Viernes 23 de octubre</b><small>¡Hasta el infinito y más allá!</small></span></div>
       <div><span class="ic">⏰</span><span><b>5:00 PM</b><small>No llegues tarde, vaquero</small></span></div>
-      <div><span class="ic">📍</span><span><b>Terraza de la casa de Mariana</b><small>Fracc. Arboleda Residencial · <a href="https://www.google.com/maps/search/?api=1&query=Fraccionamiento%20Arboleda%20Residencial%20Ciudad%20Ju%C3%A1rez" target="_blank" rel="noopener">Ver mapa</a></small></span></div>
+      <div><span class="ic">📍</span><span><b>Terraza de la casa de Mariana</b><small>Fracc. Arboleda Residencial · <a href="https://maps.app.goo.gl/rn4yjB1t2soVtendA" target="_blank" rel="noopener">📍 Abrir en Google Maps</a></small></span></div>
     </div>
   </section>
 
@@ -155,6 +162,13 @@ textarea{resize:vertical;min-height:70px}
   <div class="gang"><img src="img/rex.webp" alt=""><img src="img/potatoes.webp" alt="" style="height:min(90px,20vw)"><img src="img/hamm.webp" alt="" style="height:min(90px,20vw)"><img src="img/forky.webp" alt="" style="height:min(110px,24vw)"></div>
   <p>Con cariño para Adhara · 6 años 🤠🚀</p>
 </footer>
+<section class="promo">
+  <div class="k">🎬 ¿TE GUSTÓ ESTA INVITACIÓN?</div>
+  <h3>Haz la de tu fiesta con video animado</h3>
+  <p>Video-invitaciones con las fotos de tus peques, sus personajes favoritos en movimiento, voz y música, más una página para que tus invitados confirmen asistencia.</p>
+  <a href="https://bunkercreativomx.com/?utm_source=invitacion-adhara&amp;utm_medium=referral&amp;utm_campaign=video-invitaciones" target="_blank" rel="noopener">Quiero la mía →</a>
+  <small>Hecho por Bunker Creativo · bunkercreativomx.com</small>
+</section>
 <div class="conf" id="conf"></div>
 <script>
 const PB='https://aprovaciones.bunkeragent.cloud/api/collections/rsvp_adhara/records';
